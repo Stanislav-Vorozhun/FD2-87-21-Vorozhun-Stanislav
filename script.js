@@ -1,3 +1,5 @@
+// --------Anketa--------
+
 let fio = prompt('Введите ваше ФИО: ');
 if (isNaN(fio)) {
     let age = parseInt(prompt('Введите ваш возраст: '));
