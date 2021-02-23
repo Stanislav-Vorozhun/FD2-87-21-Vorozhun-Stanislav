@@ -1,0 +1,95 @@
+@import "./normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap');
+.section {}
+
+.section-homeworks-done {
+    background-color: #6cd683;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 3px solid;
+}
+
+.section-homeworks-inprogress {
+    background-color: #dab54d;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 3px solid;
+}
+
+.section-homeworks-notready {
+    background-color: #bd4545;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 3px solid;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    ;
+}
+
+.anketa {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.anketa-img {
+    border-radius: 50%;
+    width: 220px;
+    height: 240px;
+}
+
+.anketa-data {
+    margin: 10px 15px 10px 15px;
+}
+
+.anketa-name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.anketa-items {}
+
+.anketa-items li,
+a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.homework {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homework-title {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    margin-bottom: 15px;
+}
+
+.homework-name {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.homework-text {
+    font-size: 20px;
+    font-family: ;
+}
+
+.homework-statcontrol {
+    display: flex;
+    flex-direction: column;
+}
+
+.homework-status {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.homework-button {
+    width: 100px;
+}
