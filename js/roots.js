@@ -14,7 +14,6 @@ document.getElementById('roots-btn').onclick = function() {
         alert('два корня: ' + roots[0] + ' и ' + roots[1]);
 
     squareRootsTests();
-    console.log('Слогаемое а не может быть равно нулю. Неполное квадратное уровнение!');
 
 
     // находим корни квадратного уравнения
@@ -64,6 +63,7 @@ document.getElementById('roots-btn').onclick = function() {
 
         console.log('тест 0,5,-10 -> один корень 2');
         var roots = squareRoots(0, 5, -10);
+        console.log('Слогаемое а не может быть равно нулю. Неполное квадратное уровнение!');
         console.log(((roots.length == 1) && (roots[0] == 2)) ? 'пройден' : 'НЕ ПРОЙДЕН!')
     }
 
