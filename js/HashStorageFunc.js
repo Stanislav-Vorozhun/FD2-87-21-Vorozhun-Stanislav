@@ -52,5 +52,11 @@ delButton.onclick = function() {
 
 const listButton = document.getElementById('list-coctail');
 listButton.onclick = function() {
-    console.log(coctailsDatabase.storage);
+    console.log(coctailsDatabase.getKeys());
+}
+
+const recipeButton = document.getElementById('recipe');
+recipeButton.onclick = function() {
+    const coctailRecipe = window.prompt('Рецепт какого напитка вас интересует? ');
+    console.log(coctailsDatabase.getValue(coctailRecipe));
 }
