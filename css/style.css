@@ -20,6 +20,12 @@
     border-bottom: 3px solid;
 }
 
+.section-homeworks-inprogressF {
+    background-color: #4da9da;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 3px solid;
+}
+
 .container {
     width: 100%;
     max-width: 1230px;
