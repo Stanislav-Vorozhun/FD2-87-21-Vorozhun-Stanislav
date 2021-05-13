@@ -1,0 +1,41 @@
+#clockBody {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background-color: #2b2a28;
+}
+
+.hoursBody {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #838a87;
+	position: absolute;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.hoursArrow {
+	width: 9px;
+	height: 60px;
+	border-radius: 10px;
+	position: absolute;
+	background-color: rgb(207, 177, 7);
+}
+
+.minutesArrow {
+	width: 5px;
+	height: 120px;
+	border-radius: 10px;
+	position: absolute;
+	background-color: rgb(207, 177, 7);
+}
+
+.secondsArrow {
+	width: 2px;
+	height: 145px;
+	border-radius: 10px;
+	position: absolute;
+	background-color: red;
+}
