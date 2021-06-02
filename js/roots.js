@@ -5,13 +5,17 @@ document.getElementById('roots-btn').onclick = function() {
     var c = Number(prompt('Введите c'));
     var roots = squareRoots(a, b, c);
 
-
-    if (!roots.length)
-        alert('корней нет!');
-    else if (roots.length == 1)
-        alert('один корень: ' + roots[0]);
-    else
-        alert('два корня: ' + roots[0] + ' и ' + roots[1]);
+    switch (roots.length) {
+        case '!roots.length': 
+            alert('корней нет!');
+            break;
+        case '1':
+            alert('один корень: ' + roots[0]);
+            break;
+        default: 
+            alert('два корня: ' + roots[1] + ' и ' + roots[0]);
+            
+    }
 
     squareRootsTests();
 
